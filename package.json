@@ -1,0 +1,30 @@
+{
+  "name": "react-nodegui-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Atul R <atulanand94@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack && qode ./dist/index.js",
+    "debug": "webpack && qode --inspect ./dist/index.js"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.1.7",
+    "@nodegui/qode": "^1.0.4",
+    "@nodegui/react-nodegui": "^0.1.6",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "@types/react": "^16.9.2",
+    "file-loader": "^4.2.0",
+    "node-loader": "^0.6.0",
+    "nodemon": "latest",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.6"
+  }
+}
